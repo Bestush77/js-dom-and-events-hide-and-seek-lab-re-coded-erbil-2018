@@ -23,7 +23,7 @@ function deepestChild () {
 function increaseRankBy(n) {
   let selectedParent = document.querySelectorAll('.rankedList');
   for(let i = 0; i< selected.length; i++){
-    selectedParentChildOfChild[i].innerText = parseInt(selectedParentChildOfChild[i].innerText) * n;
+    selectedParentChildOfChild[i].innerHTML = parseInt(selectedParentChildOfChild[i].innerHTML) * n;
   }
   
 }
