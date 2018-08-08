@@ -8,7 +8,7 @@ function nestedTarget () {
 
 
 function deepestChild () {
-  let deepestChildElement = getElementById('#grand-node');
+  let deepestChildElement = getElementById('grand-node');
   let nextChild = deepestChildElement.children[0];
   for(;nextChild;){
   deepestChildElement = nextChild;
